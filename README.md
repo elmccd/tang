@@ -1,6 +1,18 @@
 # tang
 Templating language concept
 
+### Motivation
+
+Simple templating language allowing syntax similar to AngularJS directives.
+
+Key points:
+- Template is a valid HTML
+- Because it's a valid HTML we can use any other markup language that transpile to HTML (e.g Jade)
+- Because it's a valid HTML we can minify the template (as HTML) safetly
+- Because it's a valid HTML we are getting highlight support in editors
+- It looks way more readable
+- It doesn't allow custom code in templates - so it's keeping them logic free
+
 ### Features
 
 - [ ] Text binding in a text nodes
